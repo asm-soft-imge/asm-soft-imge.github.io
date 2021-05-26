@@ -1,0 +1,80 @@
+body {
+  color: #212529;
+  background-color: #b8b8b8;
+  margin: 0%;
+}
+
+#space {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: auto;
+  margin-top: -65px;
+  margin-bottom: -65px;
+
+}
+
+#space h1 {
+  text-align: center;
+  color: rgb(95, 95, 95);
+  font-family: Anton;
+  font-size: large;
+  display: block;
+  margin: 8px;
+}
+
+#logo-soft-position {
+  width: 100%;
+  text-align: center;
+}
+
+#logo-soft-style {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo-dl-position {
+  width: 100%;
+  text-align: center;
+}
+
+#logo-dl-style {
+  width: 2%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: auto;
+
+}
+#logo-mail-position{
+  width: 100%;
+  text-align: center;
+}
+#logo-mail-style{
+  width: 2%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+@media (max-width: 361px) {
+  #space h1 {
+    text-align: center;
+    color: rgb(150, 41, 41);
+    font-family: Anton;
+    font-size: large;
+  }
+}
