@@ -16,11 +16,12 @@ body {
 
 #header h1 {
   text-align: center;
-  color: rgb(95, 95, 95);
+  color: rgb(131, 131, 131);
   font-family: Anton;
   font-size: large;
   display: block;
-  margin: 8px;
+  margin-top: 0px;
+  
 }
 
 #logo-soft-position {
@@ -29,7 +30,6 @@ body {
 }
 
 #logo-soft-style {
-  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -47,13 +47,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 #footer{
   position: absolute;
   bottom: 10px;
   width: 100%;
   height: auto;
-
 }
 #logo-mail-position{
   width: 100%;
@@ -67,14 +65,69 @@ body {
   margin-right: auto;
 }
 
+@media (min-width:251px) and (max-width: 425px) {
 
+  #logo-soft-style {
+    width: 80%;
+  }
+  #logo-dl-style {
+    width: 3%;
+  }
+  #header h1 {
+    font-size: smaller;
+  }
+  #logo-mail-style{
+    width: 3%;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
 
-
-@media (max-width: 361px) {
-  #space h1 {
-    text-align: center;
-    color: rgb(150, 41, 41);
-    font-family: Anton;
+  #logo-soft-style {
+    width: 80%;
+  }
+  #logo-dl-style {
+    width: 5%;
+  }
+  #header h1 {
     font-size: large;
+  }
+  #logo-mail-style{
+    width: 5%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  #logo-soft-style {
+    width: 70%;
+  }
+  #logo-dl-style {
+    width: 3%;
+  }
+  #header h1 {
+    font-size: large;
+  }
+  #logo-mail-style{
+    width: 3%;
+  }
+}
+@media (min-width: 1025px) {
+
+  #logo-soft-style {
+    width: 40%;
+  }
+  #logo-dl-style {
+    width: 2%;
+  }
+  #header h1 {
+    font-size: large;
+  }
+  #logo-mail-style{
+    width: 2%;
+  }
+}
+@media (min-width: 3000px) {
+
+  #header h1 {
+    font-size: 60px;
   }
 }
