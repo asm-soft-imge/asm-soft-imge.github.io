@@ -40,7 +40,7 @@ body {
   text-align: center;
 }
 
-#logo-dl-style {
+.logo-dl-style {
   width: 2%;
   height: auto;
   display: block;
@@ -70,7 +70,7 @@ body {
   #logo-soft-style {
     width: 80%;
   }
-  #logo-dl-style {
+  .logo-dl-style {
     width: 3%;
   }
   #header h1 {
@@ -85,7 +85,7 @@ body {
   #logo-soft-style {
     width: 80%;
   }
-  #logo-dl-style {
+  .logo-dl-style {
     width: 5%;
   }
   #header h1 {
@@ -100,7 +100,7 @@ body {
   #logo-soft-style {
     width: 70%;
   }
-  #logo-dl-style {
+  .logo-dl-style {
     width: 3%;
   }
   #header h1 {
@@ -115,7 +115,7 @@ body {
   #logo-soft-style {
     width: 40%;
   }
-  #logo-dl-style {
+  .logo-dl-style {
     width: 2%;
   }
   #header h1 {
@@ -130,4 +130,27 @@ body {
   #header h1 {
     font-size: 60px;
   }
+}
+
+
+
+/* jBox styles */
+
+.ajax-sending {
+  color: #49d;
+}
+
+.ajax-complete {
+  color: #390;
+}
+
+.ajax-success tt {
+  color: #666;
+  display: block;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.ajax-error {
+  color: #d00;
 }
