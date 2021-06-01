@@ -11,8 +11,8 @@ jQuery(function () {
       ajax: {
         url: 'https://softimage.ir/dl/softimage.xml',
         data: {
-          id: '1982',
-          name: 'Stephan Wagner'
+          id: '2009',
+          name: 'softimage_2009'
         },
         method: 'post',
         reload: 'strict',
